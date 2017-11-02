@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <title>Cadastro de filmes</title>
+</head>
+<body>
+    
+<div class="container">
+  <h1> Video locadora Avenida</h1>
+    <h2> cadastro de fimes</h2>
+    <hr>
+    <form method="POST" action="grava.php">
+  <form>
+    <div class="form-group">
+      <label for="titulo">titulo:</label>
+      <input type="text" class="form-control" 
+      id="titulo" name="titulo" >
+    </div>
+  <div class="form-group">
+      <label for="genero">genero:</label>
+      <input type="text" class="form-control" 
+      id="genero" name="genero" >
+  </div>
+    <div class="form-group">
+      <label for="duraçao">duraçao:</label>
+      <input type="text" class="form-control" 
+      id="duraçao" name="duraçao" >
+    </div>
+      <input type="submit" class="btn btn-primary" value="Enviar">
+     <input type="button" class="btn btn-warning" value="Limpar">
+    
+  </form>
+</div>
+</body>
+</html>
